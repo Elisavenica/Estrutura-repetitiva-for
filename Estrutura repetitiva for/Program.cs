@@ -14,7 +14,6 @@ namespace course
                 Console.Write("Valor #{0}: ", i);
                 int valor = int.Parse(Console.ReadLine());
                 soma += valor;
-
             }
             Console.WriteLine("Soma = " + soma);
         }
